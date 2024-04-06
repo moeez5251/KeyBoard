@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 100vh;
+}
+
+.heading {
+    width: 100%;
+    color: yellow;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    animation: heading 4s linear 1 forwards;
+}
+
+@keyframes heading {
+    0% {
+        margin-left: 0px;
+    }
+
+    25% {
+        margin-left: 200px;
+    }
+
+    50% {
+        margin-left: 300px;
+    }
+
+    75% {
+        margin-left: 400px;
+    }
+
+    100% {
+        margin-left: 550px;
+
+    }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 34px;
+}
+.btn{
+    background: none;
+    border: 1px solid red;
+    padding: 3px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 94px;
+    color: red;
+    cursor: not-allowed;
+    text-align: center;
+}
+.small-btn{
+    margin-left: 13px;
+
+}
+.large-btn{
+    margin-left: 10px;
+    padding: 3px 35px;
+    text-align: center;
+}
+#Backspace{
+    text-align: center;
+    padding: 9px 31px;
+
+}
+#Tab{
+    padding: 3px 18px;
+    margin-left: 69px;
+}
+.large-btn-third{
+    margin-left: 10px;
+    padding: 3px 31px;
+}
+#Enter{
+    padding: 11px 39px;
+}
+#CapsLock{
+    padding: 6px 18px;
+    margin-left: 30px;
+}
+#shift{
+    padding: 9px 59px;
+}
+.Shift{
+    margin-left: 30px;
+    padding: 9px 39px;
+}
+.Control{
+    margin-left: 30px;
+    padding: 9px 30px;
+}
+
+#Meta{
+    padding: 9px 7px;
+
+}
+.Alt{
+    padding: 8px 20px;
+
+}
+.spacebar{
+    padding: 11px 230px;
+    text-wrap: nowrap;
+}
+.last1{
+    display: flex;
+    flex-direction: row;
+}
+.last{
+    margin-left: 3px;
+    font-size: 12px;
+    padding: 1px 19px;
+    margin-top: 10px;
+    
+}
