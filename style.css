@@ -16,7 +16,6 @@ body {
     padding-bottom: 40px;
     animation: heading 4s linear 1 forwards;
 }
-
 @keyframes heading {
     0% {
         margin-left: 0px;
@@ -48,12 +47,12 @@ body {
 }
 .btn{
     background: none;
-    border: 1px solid red;
+    border: 1px solid orange;
     padding: 3px 15px;
     font-size: 18px;
     border-radius: 10px;
     margin-left: 94px;
-    color: red;
+    color: orange;
     cursor: not-allowed;
     text-align: center;
 }
