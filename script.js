@@ -22,9 +22,9 @@ document.addEventListener('keydown', function (event) {
     if (event.keyCode == 18) {
         event.preventDefault();
     }
-    if (event.getModifierState('CapsLock')) {
-        alert('Caps Lock is on.Turn off it.');
-    }
+        if (event.getModifierState('CapsLock')) {
+            alert('Caps Lock is on.Turn off it.');
+        }
     console.log(event.key);
     elements.style.color = 'cyan'
     elements.style.borderColor = 'cyan'
