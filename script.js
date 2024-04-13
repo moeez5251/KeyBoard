@@ -27,7 +27,11 @@ document.addEventListener('keydown', function (event) {
     if (event.keyCode == 18) {
         event.preventDefault();
     }
-    
+//Arrow Keys Handling
+    if (event.keyCode>=37&&event.keyCode<=40||event.keyCode==33||event.keyCode==34) {
+        event.preventDefault();
+    }
+    // Two keys in Keyboard handling
     if (event.key=="Alt"&&event.code=="AltRight") {
                 document.getElementById("Alt-Right").style.color='cyan'
                 document.getElementById("Alt-Right").style.borderColor='cyan'
@@ -63,6 +67,4 @@ document.addEventListener('keydown', function (event) {
     elements.style.color='cyan';
     elements.style.borderColor='cyan';
    }
-    console.log(event.code);
-    console.log(event.key);
 });
