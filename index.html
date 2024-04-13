@@ -9,14 +9,16 @@
     <link  rel="icon" href="logo.png" type="gif/x-icon ">
     <script defer src="script.js"></script>
 </head>
-
 <body>
     <div class="head">
         <h1 class="heading">Key Board Tester</h1>
     </div>
-    <br>
-    <br>
-    <br>
+    <div class="points">
+        <ul>
+            <li>Start Pressing keys to test Your Keyboard</li>
+            <li>The Color of Keys change automatically when you press the Keys</li>
+        </ul>
+    </div>
     <div class="row">
         <p id="Escape" class="btn">Esc</p>
         <p id="F1" class="btn small-btn">F1</p>
@@ -47,6 +49,7 @@
         <p id="7" class="btn large-btn">7</p>
         <p id="8" class="btn large-btn">8</p>
         <p id="9" class="btn large-btn">9</p>
+        <p id="0" class="btn large-btn">0</p>
         <p id="-" class="btn large-btn">-</p>
         <p id="=" class="btn large-btn">=</p>
         <p id="Backspace" class="btn large-btn">Backspace</p>
@@ -80,12 +83,11 @@
         <p id="l" class="btn large-btn-third">L</p>
         <p id=";" class="btn large-btn-third">;</p>
         <p id="'" class="btn large-btn-third">'</p>
-        <p class="btn large-btn-third \">\</p>
     </div>
     <div class="row">
-        <p class="btn Shift">Shift</p>
+        <p id="shift-left" class="btn Shift">Shift</p>
+        <p id="Slash" class="btn large-btn-third \">\</p>
         <p id="z" class="btn large-btn-third">Z</p>
-        <p class="btn large-btn-third \">\</p>
         <p id="x" class="btn large-btn-third">X</p>
         <p id="c" class="btn large-btn-third">C</p>
         <p id="v" class="btn large-btn-third">V</p>
@@ -94,15 +96,15 @@
         <p id="m" class="btn large-btn-third">M</p>
         <p id="," class="btn large-btn-third">,</p>
         <p id="/" class="btn large-btn-third">/</p>
-        <p id="shift" class="btn  Shift">Shift</p>
+        <p id="shift-right" class="btn  Shift">Shift</p>
     </div>
     <div class="row">
-        <p class="btn Control">Control</p>
+        <p id="Left-C" class="btn Control">Control</p>
         <p id="Meta" class="btn large-btn-third">Window</p>
-        <p class="btn large-btn-third Alt">Alt</p>
+        <p id="Alt-Left" class="btn large-btn-third Alt">Alt</p>
         <p id=" " class="btn large-btn-third spacebar">Space Bar</p>
-        <p class="btn large-btn-third Alt">Alt</p>
-        <p class="btn Control">Control</p>
+        <p id="Alt-Right" class="btn large-btn-third Alt">Alt</p>
+        <p id="Right-C" class="btn Control">Control</p>
         <div class="last">
             <div class="last1">
                 <p id="PageUp" class="btn last">Page Up</p>
